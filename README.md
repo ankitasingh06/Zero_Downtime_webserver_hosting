@@ -21,22 +21,22 @@ Here is one of my Project which depends on to deploy our Web server using a very
 5.2 If Application created first time, then Expose the application. Else don’t expose it.
 
 # Tools and Technology used :-
-git
-github
-jenkins
-docker
-kubernetes
+- git
+- github
+- jenkins
+- docker
+- kubernetes
 
 # Theory :-
 Master Slave Architecture :- A Jenkins master comes with the basic installation of Jenkins, and in this configuration, the master handles all the tasks for your build system. The job of a Slave is to do as they are told to, which involves executing build jobs dispatched by the Master.
 ![1_JfXwsBSoRu1Q0CsEnqxfuQ](https://user-images.githubusercontent.com/60088271/92413867-a7606e00-f16f-11ea-90c6-473912c8109d.png)
 As we that there can be two types of Slave nodes in Jenkins(Master Slave Architecture)
-1.Static node
-2.Distributed/Dynamic node
+- 1.Static node
+- 2.Distributed/Dynamic node
 Image for post
-Static node:- Static node includes making Jenkins slave to a different VM which will work when Master will assign job to them.
+» Static node:- Static node includes making Jenkins slave to a different VM which will work when Master will assign job to them.
 Otherwise they will sit idle .
-Dynamic node:-this is to resolve the limitation of static nodes i.e. Reducing the power usage of static node when they are idle, reducing provisioning cost , Reducing storage problem etc.
+» Dynamic node:-this is to resolve the limitation of static nodes i.e. Reducing the power usage of static node when they are idle, reducing provisioning cost , Reducing storage problem etc.
 Dynamic launching of node can be done by the use of containerization technology.
 
 ![1_49JemATeH1NHlD04jr9Kqw](https://user-images.githubusercontent.com/60088271/92413893-be9f5b80-f16f-11ea-9874-7617266b44f6.png)
