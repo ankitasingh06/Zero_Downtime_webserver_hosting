@@ -17,8 +17,8 @@ Here is one of my Project which depends on to deploy our Web server using a very
 4.2 Push that image to the docker hub (Public repository)
 ( Github code contain the application code and Dockerfile to create a new image )
 5. Job2 ( Should be run on the dynamic slave of Jenkins configured with Kubernetes kubectl command): Launch the application on the top of Kubernetes cluster performing following operations:
-5.1 If launching first time then create a deployment of the pod using the image created in the previous job. Else if deployment already exists then do rollout of the existing pod making zero downtime for the user.
-5.2 If Application created first time, then Expose the application. Else don’t expose it.
+- 5.1 If launching first time then create a deployment of the pod using the image created in the previous job. Else if deployment already exists then do rollout of the existing pod making zero downtime for the user.
+- 5.2 If Application created first time, then Expose the application. Else don’t expose it.
 
 # Tools and Technology used :-
 - git
@@ -29,7 +29,9 @@ Here is one of my Project which depends on to deploy our Web server using a very
 
 # Theory :-
 Master Slave Architecture :- A Jenkins master comes with the basic installation of Jenkins, and in this configuration, the master handles all the tasks for your build system. The job of a Slave is to do as they are told to, which involves executing build jobs dispatched by the Master.
-![1_JfXwsBSoRu1Q0CsEnqxfuQ](https://user-images.githubusercontent.com/60088271/92413867-a7606e00-f16f-11ea-90c6-473912c8109d.png)
+
+                  ![1_JfXwsBSoRu1Q0CsEnqxfuQ](https://user-images.githubusercontent.com/60088271/92413867-a7606e00-f16f-11ea-90c6-473912c8109d.png)
+
 As we that there can be two types of Slave nodes in Jenkins(Master Slave Architecture)
 - 1.Static node
 - 2.Distributed/Dynamic node
