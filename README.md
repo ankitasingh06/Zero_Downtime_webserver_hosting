@@ -39,6 +39,7 @@ Master Slave Architecture :- A Jenkins master comes with the basic installation 
 As we that there can be two types of Slave nodes in Jenkins(Master Slave Architecture)
 - 1.Static node
 - 2.Distributed/Dynamic node
+
 ![1_49JemATeH1NHlD04jr9Kqw](https://user-images.githubusercontent.com/60088271/92413893-be9f5b80-f16f-11ea-9874-7617266b44f6.png)
 
 » Static node:- Static node includes making Jenkins slave to a different VM which will work when Master will assign job to them.
@@ -67,12 +68,12 @@ Now with the help of docker docker push <container_name>
 I just checked this image , whether it is working fine or not, by launching it first time.
 docker push ankita0610/webserver-html:v2
 code inside index.html in ankita0610/webserver-html:v2 :-
-<html>
+""<html>
 <body bgcolor=”aqua”>
 <h1>Hello World!!</h1>
 <h3>My first webpage</h3>
 </body>
-</html>
+</html>""
 
 ![1_xQUMoajriELWjar0Qk8YYg](https://user-images.githubusercontent.com/60088271/92445859-9a289b00-f1d2-11ea-932e-6e5a8ec91bb2.jpeg)
 
@@ -92,10 +93,6 @@ Step 2:- Creation of Dynamic node(Dynamic cloud)
 ![1_sXFCdXc0ooVQfdyWQxuScg](https://user-images.githubusercontent.com/60088271/92446085-ee337f80-f1d2-11ea-9ffa-bfdefe8c05ba.jpeg)
 
 Now , we have to create web-hook on github so that as soon as developer push their program file on github, github will trigger our job1.
-
-![1_DD4smt2SDLNGEmODUMlayg](https://user-images.githubusercontent.com/60088271/92446445-744fc600-f1d3-11ea-9751-73be902e050a.jpeg)
-
-![1_F-sTvcYSbuA8KfX9Ih1geQ](https://user-images.githubusercontent.com/60088271/92446489-8467a580-f1d3-11ea-902d-5e18291c66a4.jpeg)
 
 ![1_1eJXADAabpBBnfr1HHlpLA](https://user-images.githubusercontent.com/60088271/92446271-33f04800-f1d3-11ea-8bdd-f7d780ba7331.jpeg)
 
