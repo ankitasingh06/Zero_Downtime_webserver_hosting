@@ -3,8 +3,11 @@
 ![1_PzlKUWgDXjjiHssaS7VE2A](https://user-images.githubusercontent.com/60088271/92413832-81d36480-f16f-11ea-870a-dd0d3a78ec86.jpeg)
 
 This is a project based on hosting website at ZERO DOWNTIME!! Zero Downtime describes a site without service interruption. To achieve such lofty goals, redundancy becomes a critical requirement at every level of your infrastructure.
+
 As all leading business depends on their regular,continuous and easy service providence , trust of their users/customers with various Business strategies. for ex.- Amazon , flipkart , Netflix, youtube etc.
+
 This all depends on the Deployment Architecture. None of the users want any type of delay in their work just for downtime. Obviously they will move/switch to the another Website.
+
 So here the role of Automation come into play , as none of the business guys intentionally wants their service to go down.As for them this business is their bread and butter , they are earning money because of their services.So with the help of Automation we can resolve this issue of downtime.
 Here is one of my Project which depends on to deploy our Web server using a very good feature of Jenkins that is Distributed Jenkins.
 
@@ -35,7 +38,8 @@ Master Slave Architecture :- A Jenkins master comes with the basic installation 
 As we that there can be two types of Slave nodes in Jenkins(Master Slave Architecture)
 - 1.Static node
 - 2.Distributed/Dynamic node
-Image for post
+
+
 » Static node:- Static node includes making Jenkins slave to a different VM which will work when Master will assign job to them.
 Otherwise they will sit idle .
 » Dynamic node:-this is to resolve the limitation of static nodes i.e. Reducing the power usage of static node when they are idle, reducing provisioning cost , Reducing storage problem etc.
