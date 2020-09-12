@@ -25,6 +25,7 @@ Here is one of my Project which depends on to deploy our Web server using a very
 - 5.2 If Application created first time, then Expose the application. Else don’t expose it.
 
 # Tools and Technology used :-
+- RedHat Virtual Machine
 - git
 - github
 - jenkins
