@@ -52,7 +52,7 @@ Dynamic launching of node can be done by the use of containerization technology.
 
 
 # Procedure :-
-•Step 1:- Creation of docker imagem with the help of Dockerfile.
+•Step 1:- Creation of docker image with the help of Dockerfile.
    - For dynamic launching of kubernetes, we are creating docker image for kubernetes
 
 ![1_9DYjmkQ5QE1Vb2v0S000QQ](https://user-images.githubusercontent.com/60088271/92445492-0e167380-f1d2-11ea-84ee-9c1d82de5086.jpeg)
@@ -117,7 +117,7 @@ And here is the output on Build of job1.
 
 ![1_uxlnFkwum6iXLf33UcbLFQ](https://user-images.githubusercontent.com/60088271/92989322-141d9480-f4f1-11ea-845b-e1c09749fa7f.jpeg)
 
-Job2:- For launching the slave node dynalically and then deploy the webserver.
+Job2:- For launching the slave node dynamically and then deploy the webserver.
 - If launching first time then create a deployment of the pod using the image created in the previous job. Else if deployment already exists then do rollout of the existing pod making zero downtime for the user.
 - If Application created first time, then Expose the application. Else don’t expose it.
 Code of index.html in ankita0610/webserver-html:v3 :-
