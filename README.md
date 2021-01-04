@@ -157,5 +157,5 @@ Here is the output , which I get:-
 
 ![1_TQo4SJDdQI1vN2Sh8gdkNQ](https://user-images.githubusercontent.com/60088271/92989417-d66d3b80-f4f1-11ea-9d96-9a8d8a28fcaa.jpeg)
 
-So this is how we launched our website with no downtime, ZERO DOWNTIME!! with the use of DevOpsautomation tools .
+So this is how we launched our website with no downtime, ZERO DOWNTIME!! with the use of DevOps automation tools .
 
